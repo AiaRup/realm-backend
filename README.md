@@ -11,7 +11,7 @@ npm install -g mongodb-realm-cli
 
 ## 2. Create an Atlas cluster with MongoDB 4.4+
 
-To have a backend for your Task Tracker app, you will need a MongoDB Atlas
+To have a backend for your Task ledesma app, you will need a MongoDB Atlas
 cluster with MongoDB 4.4 or higher. To create an Atlas account, project, and cluster, visit the [Atlas
 UI](https://cloud.mongodb.com/?tck=docs_realm).
 
@@ -54,5 +54,3 @@ widget on the [docs site](http://docs.mongodb.com/realm/tutorial).
 This repo is automatically derived from our main docs repo. If you'd like to
 submit a pull request -- thanks! -- please feel free to do so at
 https://github.com/mongodb/docs-realm/ (see the tutorial/ subdirectory).
-
-

@@ -1,6 +1,7 @@
 {
-    "config_version": 20210101,
-    "name": "tasktracker",
-    "location": "US-VA",
-    "deployment_model": "GLOBAL"
+  "config_version": 20210101,
+  "app_id": "<App ID>",
+  "name": "ledesma",
+  "location": "US-VA",
+  "deployment_model": "GLOBAL"
 }

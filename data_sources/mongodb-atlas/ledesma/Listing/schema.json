@@ -1,0 +1,48 @@
+{
+  "bsonType": "object",
+  "properties": {
+    "_id": {
+      "bsonType": "objectId"
+    },
+    "_partition": {
+      "bsonType": "string"
+    },
+    "head": {
+      "bsonType": "objectId"
+    },
+    "operation": {
+      "bsonType": "int"
+    },
+    "flowmeter": {
+      "bsonType": "int"
+    },
+    "pressurePump": {
+      "bsonType": "decimal"
+    },
+    "pressureField": {
+      "bsonType": "decimal"
+    },
+    "createdAt": {
+      "bsonType": "date"
+    },
+    "updatedAt": {
+      "bsonType": "date"
+    },
+    "createdBy": {
+      "bsonType": "objectId"
+    },
+    "location": {
+      "bsonType": "object",
+      "properties": {
+        "latitude": {
+          "bsonType": "decimal"
+        },
+        "longitude": {
+          "bsonType": "decimal"
+        }
+      }
+    }
+  },
+  "required": ["_id", "_partition", "head", "flowmeter"],
+  "title": "Listing"
+}

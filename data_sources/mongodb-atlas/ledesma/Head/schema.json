@@ -1,0 +1,74 @@
+{
+  "bsonType": "object",
+  "properties": {
+    "_id": {
+      "bsonType": "objectId"
+    },
+    "_partition": {
+      "bsonType": "string"
+    },
+    "farm": {
+      "bsonType": "objectId"
+    },
+    "name": {
+      "bsonType": "string"
+    },
+    "area": {
+      "bsonType": "decimal"
+    },
+    "system": {
+      "bsonType": "string"
+    },
+    "active": {
+      "bsonType": "bool"
+    },
+    "updatedAt": {
+      "bsonType": "date"
+    },
+    "operators": {
+      "bsonType": "array",
+      "uniqueItems": true,
+      "items": {
+        "bsonType": "objectId"
+      }
+    },
+    "operations": {
+      "bsonType": "object",
+      "properties": {
+        "active": {
+          "bsonType": "bool"
+        },
+        "name": {
+          "bsonType": "int"
+        },
+        "flow": {
+          "bsonType": "decimal"
+        },
+        "field": {
+          "bsonType": "object",
+          "properties": {
+            "max": {
+              "bsonType": "int"
+            },
+            "min": {
+              "bsonType": "int"
+            }
+          }
+        },
+        "pump": {
+          "bsonType": "object",
+          "properties": {
+            "max": {
+              "bsonType": "int"
+            },
+            "min": {
+              "bsonType": "int"
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": ["_id", "_partition", "head", "flowmeter"],
+  "title": "Head"
+}
